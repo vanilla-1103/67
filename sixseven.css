@@ -1,11 +1,128 @@
-img{
-    width: 200px;
-}
-body{
-    text-align:center;
-    font-family: 'Georgia';
-    background: azure;
-    color: pink;
 
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    background: azure;
+    color: #d63384;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    font-size: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(205, 13, 13);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 3px solid pink;
+}
+
+/* Headings */
+h1 {
+    color: rgb(198, 23, 99);
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #a05252;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #c2185b;
+    border-bottom: 2px solid pink;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Image */
+img {
+    width: 300px;
+    max-width: 100%;
+    border: 5px solid pink;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Fact boxes */
+.fact-box {
+    background: #fff5f7;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border-left: 5px solid hotpink;
+}
+
+/* Lists */
+ul {
+    text-align: left;
+    display: inline-block;
+    margin: 20px;
+    list-style-position: inside;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+/* Highlight text */
+.highlight {
+    background: pink;
+    color: darkred;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: pink;
+    color: #8b0000;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Paragraphs */
+p {
+    margin: 15px 0;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+    
+    img {
+        width: 250px;
+    }
 }
 
